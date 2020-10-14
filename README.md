@@ -21,3 +21,6 @@ Understanding and Debugging Memory Leaks in Your Node.js Applications [I]
 https://www.youtube.com/watch?v=hliOMEQRqf8
 Node.js tutorial for Beginners: CPU and Memory Profiling Made Easy
 https://www.youtube.com/watch?v=gL2GGcV_f20
+
+MongoDB Timestamp tutorial (insert and retrieve based on Timestamp)
+https://www.youtube.com/watch?v=1rr2j6Zta7A
