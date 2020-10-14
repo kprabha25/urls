@@ -24,3 +24,13 @@ https://www.youtube.com/watch?v=gL2GGcV_f20
 
 MongoDB Timestamp tutorial (insert and retrieve based on Timestamp)
 https://www.youtube.com/watch?v=1rr2j6Zta7A
+
+<a href="https://stackoverflow.com/questions/40028377/is-it-possible-to-achieve-multithreading-in-nodejs" rel="noopener" target="_blank">is-it-possible-to-achieve-multithreading-in-nodejs</a>
+<a href="https://stackoverflow.com/questions/18613023/how-to-create-threads-in-nodejs" rel="noopener" target="_blank">how-to-create-threads-in-nodejs : </a>
+<a href="https://nodesource.com/blog/worker-threads-nodejs" rel="noopener" target="_blank">worker-threads-nodejs</a>
+<a href="https://flaviocopes.com/node-event-loop/#introduction" rel="noopener" target="_blank">introduction</a>
+<a href="https://flaviocopes.com/web-workers/" rel="noopener" target="_blank">web-workers</a>
+<a href="https://flaviocopes.com/websockets/" rel="noopener" target="_blank">websockets</a>
+<a href="https://medium.com/javascript-in-plain-english/javascript-what-are-stack-and-queue-79df7af5a566" rel="noopener" target="_blank">javascript-what-are-stack-and-queue</a>
+<a href="https://medium.com/javascript-in-plain-english/a-quick-guide-to-queues-in-javascript-4367354ca005" rel="noopener" target="_blank">a-quick-guide-to-queues-in-javascript</a>
+<a href="https://medium.com/javascript-in-plain-english/javascript-event-loop-y-promises-951ba6845899" rel="noopener" target="_blank">javascript-event-loop-y-promises</a>
