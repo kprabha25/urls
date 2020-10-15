@@ -35,3 +35,139 @@ https://www.youtube.com/watch?v=1rr2j6Zta7A
 <a href="https://medium.com/javascript-in-plain-english/a-quick-guide-to-queues-in-javascript-4367354ca005" rel="noopener" target="_blank">a-quick-guide-to-queues-in-javascript</a>  
 <a href="https://medium.com/javascript-in-plain-english/javascript-event-loop-y-promises-951ba6845899" rel="noopener" target="_blank">javascript-event-loop-y-promises</a>  
 <a href="https://devcenter.heroku.com/categories/deployment" rel="noopener" target="_blank">Heroku Deployment</a>  
+
+#10/15/2020
+
+https://reactjs.org/docs/create-a-new-react-app.html
+https://create-react-app.dev/
+https://github.com/facebook/create-react-app
+
+>npm install -g create-react-app
+
+E:\Prabha\Local\mernApp>create-react-app client
+
+>npm install mongoose express axios morgan concurrently -s
+
+-----------
+
+Remove a Git Remote
+git remote rm https://github.com/kprabha25/BookmarkMERN.git
+
+Below will reinitialize your local repo; also clearing remote repos (ie origin):
+git init
+
+below is used to a add a new remote, Then below, will create 'origin' if it doesn't exist:
+git remote add origin [repo-url]
+git remote add origin https://github.com/kprabha25/BookmarkMERN.git
+
+below is used to change the url of an existing remote repository:
+git remote set-url origin [repo-url]
+
+below will push your code to the master branch of the remote repository defined with origin and -u let you point your current local branch to the remote master branch:
+git push -u origin master
+
+git remote -v
+
+To push your changes into your remote repo execute the git push <remote> <branch> command :
+#git push my_awesome_new_remote_repo
+
+Remove branch from git local repo. Force Delete the Local Branch: "-D" is force delete option.
+git branch -D client
+
+Pull branch
+git pull https://github.com/kprabha25/BookmarkMERN.git <client>
+
+Update a Remote
+git remote set-url origin https://github.com/career-karma-tutorials/web-tutorials
+
+----------
+"start": "concurrently \"command1 arg\" \"command2 arg\""
+
+npm test, npm start, npm restart, and npm stop are all aliases for npm run xxx.
+
+For all other scripts you define, you need to use the npm run xxx syntax.
+
+-------------
+Cross-Origin Resource Sharing (CORS) – What is it?
+http://definitiontech.co/cross-origin-resource-sharing-cors-what-is-it/
+
+MERN App : https://www.techandstartup.org/tutorials
+
+
+---  
+How to Fix Git fatal: The current branch has no upstream branch  
+
+If you constantly get the following git error message after attempting a git push with a new local branch:
+
+fatal: The current branch <branchname> has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin <branchname>
+	
+Then the issue is that you have not configured git to always create new branches on the remote from local ones.
+
+
+The permanent fix if you always want to just create that new branch on the remote to mirror and track your local branch is:
+
+ git config --global push.default current
+
+
+----  
+git clone --single-branch --branch <branchname> <remote-repo>  
+git clone --single-branch --branch Start https://github.com/abc/bookmark.git  
+
+https://github.com/abc/bookmark.git  
+
+How to clone all remote branches in Git?
+
+$ git clone git://example.com/myproject  
+$ cd myproject
+
+$ git branch
+* master
+
+$ git branch -a
+$ git checkout origin/experimental
+
+$ git checkout experimental
+$ git branch
+* experimental
+  master
+
+
+-----  
+git clone https://github.com/abc/bookmark.git  
+
+>git branch
+* main
+
+>git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/Start
+  remotes/origin/main
+
+>git checkout Start
+Switched to a new branch 'Start'
+Branch 'Start' set up to track remote branch 'Start' from 'origin'.
+
+>git branch
+* Start
+  main
+
+>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.  
+
+>git merge Start  
+
+git push origin FirstAPI  
+-----------  
+
+git credential-manager delete https://github.com  
+
+git config --list  
+
+git config user.name = "abc"  
+git config user.email= "abc@gmail.com"  
+
