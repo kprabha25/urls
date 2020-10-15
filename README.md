@@ -34,3 +34,4 @@ https://www.youtube.com/watch?v=1rr2j6Zta7A
 <a href="https://medium.com/javascript-in-plain-english/javascript-what-are-stack-and-queue-79df7af5a566" rel="noopener" target="_blank">javascript-what-are-stack-and-queue</a>  
 <a href="https://medium.com/javascript-in-plain-english/a-quick-guide-to-queues-in-javascript-4367354ca005" rel="noopener" target="_blank">a-quick-guide-to-queues-in-javascript</a>  
 <a href="https://medium.com/javascript-in-plain-english/javascript-event-loop-y-promises-951ba6845899" rel="noopener" target="_blank">javascript-event-loop-y-promises</a>  
+<a href="https://devcenter.heroku.com/categories/deployment" rel="noopener" target="_blank">Heroku Deployment</a>  
