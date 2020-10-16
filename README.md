@@ -171,3 +171,50 @@ git config --list
 git config user.name = "abc"  
 git config user.email= "abc@gmail.com"  
 
+-----------
+16/10/2020
+
+MONGODB_URI
+mongodb+srv://adminprabha:Atlas123@cluster0.c0uc9.mongodb.net/bookmark?retryWrites=true&w=majority
+
+Deploy your application to Heroku
+After you commit your changes to git, you can deploy your app to Heroku.
+
+
+git add .
+git commit -m "Added a Procfile."
+heroku login
+Enter your Heroku credentials.
+...
+heroku create
+Creating arcane-lowlands-8408... done, stack is cedar
+http://arcane-lowlands-8408.herokuapp.com/ | git@heroku.com:arcane-lowlands-8408.git
+Git remote heroku added
+git push heroku master
+...
+-----> Node.js app detected
+...
+-----> Launching... done
+       http://arcane-lowlands-8408.herokuapp.com deployed to Heroku
+To open the app in your browser, type heroku open.
+
+
+https://devcenter.heroku.com/articles/deploying-nodejs
+
+rm -rf .git
+
+Heroku
+ab
+
+https://stackoverflow.com/questions/28318217/port-34037-is-already-in-use-heroku-nodejs-express-websockets
+https://coursework.vschool.io/deploying-mern-with-heroku/
+https://forum.freecodecamp.org/t/mern-heroku-deployment-works-locally-but-not-on-heroku/259988/3
+https://www.newline.co/fullstack-react/articles/using-create-react-app-with-a-server/
+https://www.youtube.com/watch?v=xxua85cCiT0
+https://devcenter.heroku.com/articles/deploying-nodejs
+https://devcenter.heroku.com/articles/node-best-practices
+https://devcenter.heroku.com/changelog-items/1557
+https://devcenter.heroku.com/articles/logging#view-logs
+http://definitiontech.co/cross-origin-resource-sharing-cors-what-is-it/
+https://www.youtube.com/playlist?list=PLurIMwd6GdCj_VlnKVceR66Sxfcb37VU8
+https://github.com/accimeesterlin/mernapp_youtube/blob/master/server.js
