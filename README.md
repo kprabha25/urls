@@ -218,3 +218,29 @@ https://devcenter.heroku.com/articles/logging#view-logs
 http://definitiontech.co/cross-origin-resource-sharing-cors-what-is-it/
 https://www.youtube.com/playlist?list=PLurIMwd6GdCj_VlnKVceR66Sxfcb37VU8
 https://github.com/accimeesterlin/mernapp_youtube/blob/master/server.js
+
+https://www.hopetutors.com/wp-content/uploads/2019/02/MEAN-Stack-Syllabus-compressed.pdf
+
+Find Open Source By Searching
+https://awesomeopensource.com/
+fullstack-apollo-express-mongodb-boilerplate
+https://github.com/the-road-to-graphql/fullstack-apollo-express-mongodb-boilerplate
+
+graphql-mongodb-projection
+https://github.com/du5rte/graphql-mongodb-projection
+
+How to reference another schema in my Mongoose schema?
+https://stackoverflow.com/questions/29078753/how-to-reference-another-schema-in-my-mongoose-schema?answertab=oldest#tab-top
+
+Custom Scalars in GraphQL
+https://uptoskill.com/graphql-custom-scalars/
+Learn date-fns: A Lightweight JavaScript Date Library
+https://www.sitepoint.com/date-fns-javascript-date-library/?utm_content=buffer6ab54&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
+
+Quick Tour of date-fns, a Simple JavaScript Date Library
+https://www.digitalocean.com/community/tutorials/js-date-fns
+
+moment utc, does date-fns have something similar?
+https://stackoverflow.com/questions/52833680/moment-utc-does-date-fns-have-something-similar
+
+https://www.hopetutors.com/wp-content/uploads/2019/02/MEAN-Stack-Syllabus-compressed.pdf
