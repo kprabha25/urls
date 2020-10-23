@@ -404,3 +404,345 @@ https://www.npmjs.com/package/admin-lte
 
 Ecommerce with NodeJS
 https://www.youtube.com/watch?v=ri0XSiWCdkY&list=PLcpL2kgfJqjn0zKf-daHwWWWM42bgCMiw
+
+23Oct-Office
+==========
+Stripe GraphQL - BenAwad
+https://www.youtube.com/playlist?list=PLN3n1USn4xllF5t1GZhEwFQNDnStgupdB
+
+Set up Subscription ( Recurring ) Stripe Payment with React and Express
+https://www.youtube.com/watch?v=CqXjp1vtNwk
+
+Build an Ecommerce Site Using Stripe and Gatsby — Learn With Jason
+https://www.youtube.com/watch?v=g4aCBNt5Pcg
+
+Building a faster checkout experience at PayPal with GraphQL (VISHAKHA SINGH)
+https://www.youtube.com/watch?v=JneBBbDWiVs
+
+Test Card Numbers : 
+https://stripe.com/docs/testing#cards
+
+How to configure your Stripe account and get API keys for your marketplace
+https://help.sharetribe.com/en/articles/1055989-how-to-configure-your-stripe-account-and-get-api-keys-for-your-marketplace
+
+Stirpe Developers 
+https://stripe.dev/
+
+React-stripe-checkout : Load stripe's checkout.js as a react component.Easiest way to use checkout with React.
+https://github.com/azmenak/react-stripe-checkout
+
+Deploy MERN STACK App with AWS EC2
+https://www.youtube.com/watch?v=HtWgb_vbyvY
+https://github.com/jaewonhimnae/deploy-mern-aws-ec2
+
+Building a Real-time To Do List in React
+https://www.youtube.com/watch?v=OfE0jJn3qs0&list=PLN3n1USn4xlkc2LlMIUUT1nZCh20iqgW_
+
+Facebook OAuth GraphQL with Node.js
+https://www.youtube.com/watch?v=qjKZYQih288&list=PLN3n1USn4xlnz0a96Ex0F5x-mpxCIh315
+
+jQuery - Form Builder 
+https://formbuilder.online/#top
+
+formBuilder-Github
+https://github.com/kevinchappell/formBuilder
+Angular Ng2FormBuilder
+https://github.com/KhaledSMQ/Ng2FormBuilder
+
+Business Analysis Techniques
+https://www.digiteum.com/business-analysis-techniques-it
+
+Apollo Directive
+
+git credential-manager delete https://github.com  
+
+
+(https://).*?(.com)
+(  .*).*?
+(.com).*? => double space
+
+(">).*?(</A>)
+(.*).*?(">) - > before title  
+
+Forms, File Uploads and Security with Node.js and Express
+https://www.sitepoint.com/forms-file-uploads-security-node-express/
+
+How to Create an Ecommerce Site with React
+https://www.sitepoint.com/how-to-create-an-ecommerce-site-with-react/
+https://github.com/sitepoint-editors/React-Ecommerce
+
+Formage- Form Builder NPM
+https://github.com/node4good/formage
+What's a good node.js / mongoose form builder?
+https://stackoverflow.com/questions/13481138/whats-a-good-node-js-mongoose-form-builder
+
+BxJS - Using Worker threads in Node.js : https://www.youtube.com/watch?v=eFJ7Q03jEVY
+https://www.youtube.com/results?search_query=how+promise+await+and+async+in+node+js
+Ecommerce with NodeJS : https://www.youtube.com/playlist?list=PLcpL2kgfJqjn0zKf-daHwWWWM42bgCMiw
+Code-lab : TharunSharma : https://www.youtube.com/c/TarunSharma7372/playlists
+Nodejs Microservice : https://www.youtube.com/c/TarunSharma7372/playlists
+Serverice Worker Tamil : https://www.youtube.com/results?search_query=Service+Worker+in+tamil
+Push Notifications Using Node.js & Service Worker :  https://www.youtube.com/watch?v=HlYFW2zaYQM
+https://www.youtube.com/results?search_query=ecommerce+in+nodejs
+NamasteProgramming / X-Store : https://github.com/NamasteProgramming/X-Store/tree/day_44
+https://www.youtube.com/results?search_query=heroku+mern+deploy+
+
+Heroku Deply : https://www.youtube.com/c/EsterlingAccime/playlists
+React Tamil : https://www.youtube.com/playlist?list=PLyYcNnaAVG5LbuPubpTEuHz29i5CB4SHe
+MongoDB On SSL : https://stackoverflow.com/questions/42159175/connecting-heroku-app-to-atlas-mongodb-cloud-service
+
+Express skeleton :  https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website  
+
+
+Heroku : https://www.youtube.com/watch?v=NX3jqtwfzVY
+https://www.youtube.com/watch?v=5PaUiPyBDJY
+
+How to host a RESTful Node.js server with MongoDB Atlas database on Heroku
+https://dev.to/cpclark360/how-to-host-a-restful-node-js-server-with-mongodb-atlas-database-on-heroku-1opl
+
+Connecting Heroku App to Atlas MongoDB Cloud service SSL 
+https://stackoverflow.com/questions/42159175/connecting-heroku-app-to-atlas-mongodb-cloud-service
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website
+
+
+Now there are actually two big problems with the way that this is implemented right now and so this way, it wouldn't really work at all. So first one, 
+1. this function call here has no way of knowing request, response, and next. We did not pass them into catchAsync here, and so really there's no way for the function to know the values of these parameters. And second is that right here 
+2.we are actually calling the async function. And to see this a bit better, let's just get completely rid of this code. So here we have catchAsync and we are then calling it using the parentheses of course. And then inside of catchAsync we are also then right away calling the fn function, and that's not how it is supposed to work.
+
+https://medium.com/javascript-in-plain-english/creating-enum-types-with-express-apollo-6c59665e95d4
+************
+Mongoose converting stored UTC dates to local time?
+
+Mongoose and node.js aren't doing anything to your dates, it's simply that the JavaScript Date type produces a local time string when you call toString() on it even though it actually contains the time in UTC.
+
+Explicitly call toUTCString() on your Date object if you want a UTC time string.
+
+https://stackoverflow.com/questions/17596804/mongoose-converting-stored-utc-dates-to-local-time
+----
+how to change date timezone in mongoose?
+https://stackoverflow.com/questions/35672248/how-to-change-date-timezone-in-mongoose
+------
+https://www.apollographql.com/docs/apollo-server/schema/scalars-enums/
+https://dimitr.im/custom-scalar-types-graphql-apollo
+-----
+Why does JavaScript Date.getTimezoneOffset() consider “-05:00” as a positive offset?
+
+https://stackoverflow.com/questions/21102435/why-does-javascript-date-gettimezoneoffset-consider-0500-as-a-positive-off#:~:text=Because%20that's%20how%20it's%20defined,negative%20if%20it%20is%20ahead.
+
+
+The time-zone offset is the difference, in minutes, between UTC and local time. Note that this means that the offset is positive if the local timezone is behind UTC and negative if it is ahead.
+----
+https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+---
+https://ayushgp.github.io/date-and-time-in-javascript/
+
+
+https://www.techrepublic.com/article/convert-the-local-time-to-another-time-zone-with-this-javascript/
+
+https://www.apollographql.com/docs/apollo-server/schema/creating-directives/
+
+JavaScript Date Object and Time Zones
+https://www.youtube.com/watch?v=oKFb2Us9kmg
+
+https://www.youtube.com/watch?v=UT2dP447roo
+
+"utf8": "There are many javascript libraries that allow you to convert the timezone with ease.  "
+      "utf8": "However, you might don't want to include the whole library if you just want to convert a couple times. "
+      "utf8": "So this video will talk about converting timezone in pure javascript. It's short and easy too!"
+      "utf8": "Let's start with creating a new Date object"
+      "utf8": "This will get us a local time. Let's put it on console to see"
+      "utf8": "Currently I'm in SE Asia timezone which is +7 hours from UTC"
+	  
+      "utf8": "If we want to convert the local time to any timezone, we need to convert it to UTC time first. Then add the destination timezone offset to the converted UTC time"
+      "utf8": "To convert local time to UTC time- we need to get the local timezone offset from UTC with getTimezoneOffset() "
+	  
+      "utf8": "I'm going to display the offset to the console"
+      "utf8": "It returned -420 which is our local timezone offset from UTC in \"minutes\" (-420 / 60 = 7 hours)"
+      "utf8": "Minus sign means this timezone is ahead of UTC"
+      "utf8": "Now we'll add UTC offset to our local time"
+      "utf8": "which we'll get the UTC time as a result"
+      "utf8": "To add or subtract minutes from Date object - use setMinutes() and getMinutes()"
+      "utf8": "Now our Date object contains the UTC time"
+      "utf8": "Noted that we only changed the time of our Date object. If you display the Date object, you'll still see the original timezone"
+      "utf8": "Now we have the UTC time, we can convert it to any timezone"
+      "utf8": "Suppose we want to convert it to Mumbai time which is +5.5 from UTC"
+      "utf8": "We'll just add the destination timezone offset to the UTC time"
+      "utf8": "Let's multiply 5.5 with 60 to get the offset in minutes"
+      "utf8": "then add (or subtract) the offset to the UTC time. Same way as we did previously"
+      "utf8": "Done! We've just successfully converted the local time to Mumbai time"
+      "utf8": "This technique is quick and easy if you know the offset of destination timezone"
+      "utf8": "However, if you want to convert the timezone dynamically - using the library is recommended"
+      "utf8": "In our next video release, we'll talk about interesting timezone library call moment.js"
+      "utf8": "Stay tune for more tips - subscribe if you like us :)"
+      
+      function getTimezone() { 
+            offset = new Date().getTimezoneOffset(); 
+            formatted = -(offset / 60); 
+            document.querySelector('.output').textContent 
+                    = formatted; 
+} ; getTimezone()
+
+
+var str = "2016-11-22T17:14:00";
+var dt = new Date(str + "Z");
+console.log("UTC string:");
+console.log(dt.toUTCString());
+console.log("Local string");
+console.log(dt.toString());
+console.log("Hours UTC:   " + dt.getUTCHours());
+console.log("Hours local: " + dt.getHours());
+
+https://stackoverflow.com/questions/40768606/i-have-a-utc-string-and-i-want-to-convert-it-to-utc-date-object-in-javascript/40768745#40768745
+
+https://www.cluemediator.com/convert-the-local-time-to-another-timezone-using-javascript#gcltim
+
+Offset
++09:00 in UTC+09:00 means the local time is 9 hours ahead than the UTC standard time. 
+
+
+parseISO
+
+*Parse the given string in ISO 8601 format and return an instance of Date.
+*Function accepts complete ISO 8601 formats as well as partial implementations.
+*If the argument isn't a string, the function cannot parse the string or the values are invalid, it returns Invalid Date.
+
+// Convert string '2014-02-11T11:30:30' to date:
+var result = parseISO('2014-02-11T11:30:30')
+//=> Tue Feb 11 2014 11:30:30
+
+
+format(new Date(2016, 0, 1), "yyyy-MM-dd'T'HH:mm:ss.SSSxxx")
+
+
+
+https://forum.freecodecamp.org/t/git-pull-how-to-override-local-files-with-git-pull/13216
+git reset --hard Hmis
+
+git fetch --all
+
+git checkout Hmis
+
+Javascript uses the browser time zone for date object 
+----------------
+
+why-you-shouldnt-use-moment-js
+https://inventi.studio/en/blog/why-you-shouldnt-use-moment-js
+
+We're distinguishing between errors in development  and in production.  When we're in production, we send the error  using this function here,  which will then send as many details as possible  to the client,  so that we really get all the information  in order to get rid of the bug.  If it's a programming error,  or if it's an operational error,  then we still really want to see anything that's going on.  
+When we're in production,  which is arguably the most important part  of our application, then we distinguish  between operational errors,  so errors that we know and trust,  and to other errors, that might be kind of unexpected.  
+
+If the error is operational, so for example 
+1.the user  tried to access a route that doesn't exist,  
+2.or tried to input invalid data
+all of these are operational errors.Then we can send appropriate error messages,  for the client to know what went wrong.
+
+On the other hand, we have these unknown errors/unexpected errors
+For example : Coming from MongoDB, which we do not mark as operational.  In this case, they would right now simply be handled  using this generic error message here.  For example, a validation error.  Right now, that's an error that's coming from MongoDB  and not from our own app error class.  We do not create these errors by ourselves.  Again, they are right now not marked as operational,  but we of course need to mark them as operational  so that we can then send the appropriate error message  back to the client.  In the example that I was just mentioning,  that the input data is invalid.  There are two or three other errors that we need to mark  as operational ourselves.  So we will do that  down here.  So in this else block,  we will do that over the next couple of lectures.
+
+Three type of Errors in MongoDB : 400 - Bad Request
+
+1. Invalid ID (We have to show it as Operational Errors)  - (error.name === 'CastError')
+2. Duplicate Name In DB (error.code == 1100)
+3. ValidationError [Max Value] - (error.name == 'ValidationError')
+
+500 - Internal Server Error
+
+Steps: 
+=======
+We can directly create the middleware in "index.js"
+app.all('*', (req, res, next) => {
+  
+  res.status(404).json({
+    status: 'fail',
+    message: `Can't Find URL${req.originalUrl} on the server`
+  })
+  
+  // const err = new Error(`Can't find ${req.originalUrl} on this server !`)
+  // err.status = 'fail';
+  // err.statusCode = 404;
+  // next(err);
+
+  
+})
+
+app.use((err, req, res, next)=> {
+  err.statusCode = err.statusCode || 500;
+  err.status = err.status || 'error';
+
+  res.status(err.statusCode).json({
+    status: err.status,
+    message: err.message
+  });
+})
+
+2. we're gonna build a couple of different functions for handling with different types of errors,and so I want all of these functions to be all in the same file, all right ? Controlling errors (appController.js)
+
+# move the middleware from index.js to appController.js
+
+module.exports = (err, req, res, next)=> {
+  err.statusCode = err.statusCode || 500;
+  err.status = err.status || 'error';
+
+  res.status(err.statusCode).json({
+    status: err.status,
+    message: err.message
+  });
+}
+
+4. import "appController" into the "index.js" file
+const globalErrorHandler = './appController.js'
+
+app.all('*', (req, res, next) => {
+  next(new AppError(`Can't Find URL${req.originalUrl} on the server`, 404));
+})
+
+app.use(globalErrorHandler)
+
+3. Add the AppError Class
+
+class AppError extends Error {
+    constructor(message, statusCode){
+        super(message);
+        this.statusCode = statusCode;
+        this.status = `${statusCode}`.startsWith('4') ? 'fail':'error';
+        this.isOperational = true;
+
+        Error.captureStackTrace(this, this.constructor);
+    }
+}
+
+module.exports = AppError;
+ 
+4. import "AppError" into the "index.js" file
+
+app.all('*', (req, res, next) => {
+  next(new AppError(`Can't Find URL${req.originalUrl} on the server`, 404));
+})
+
+5.Modify the async await functions
+# async function return promises so receive the error in catch part.
+const catchAsync = fn => {
+	return (req,res,next) => {
+		fn(req, res, next).catch(err=> next(err))
+	}	
+}
+
+export.createTour = catchAsync(async(req,res,next) => {
+	const newTour = await Tour.create(req.body)
+	
+	res.statu(201).json({
+		status: 'Success',
+		data: {tour: newTour}
+	})
+})
+
+6. Move the catchAsync to new file 
+module.exports =  catchAsync = fn => {
+	return (req,res,next) => {
+		fn(req, res, next).catch(err=> next(err))
+	}	
+}
+
+7. Import catchAsync into controller.js and use it
+
+
