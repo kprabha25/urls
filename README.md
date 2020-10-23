@@ -297,3 +297,110 @@ https://www.toni-develops.com/2018/12/11/using-graphqlschema-to-construct-schema
 https://www.youtube.com/watch?v=7k03jobKGXM
 https://code.tutsplus.com/tutorials/paypal-integration-part-1-paypal-payment-buttons--cms-22916
 https://code.tutsplus.com/categories/paypal
+
+23/10/2020  
+----------
+Deploy a MERN App to Heroku
+https://www.youtube.com/watch?v=qXIG8iKO7Fo
+https://github.com/hannahpatellis/reactnotesapp/blob/master/server.js
+
+How to Deploy React Express, Node App to Heroku - 2020
+https://www.youtube.com/watch?v=xgvLP3f2Y7k
+https://github.com/mujibsardar/fcb_react_express_heroku_example
+
+how to set unique indentifier in react
+https://www.google.com/search?q=how+to+set+unique+indentifier+in+react&oq=how+to+set+unique+indentifier+in+react&aqs=chrome..69i57j33i22i29i30l2.12276j0j7&sourceid=chrome&ie=UTF-8
+
+What is URL Encoding? - URL Encode/Decode Explained - Web Development Tutorial
+https://www.youtube.com/watch?v=lkAeX3T6A9I
+
+Validating & Structuring JSON over WebSockets - JavaScript Tutorial
+https://www.youtube.com/watch?v=mmZmtOUIBsg&list=PLVvjrrRCBy2I4V6nsCxwO03Y8GHaT-izr
+
+TODO REST APP in Express ( NodeJS )
+https://www.youtube.com/playlist?list=PLxoOrmZMsAWwTIKAJTOUpS9US5YkRuhrq
+
+AWS Lambda Using NodeJS
+https://www.youtube.com/playlist?list=PLxoOrmZMsAWyBy3qwWdNhtAi-J4yLK1k9
+
+Understanding Express web framework in NodeJS
+https://www.youtube.com/playlist?list=PLxoOrmZMsAWxC3BaEeSvKkqtZmfzUk367
+
+Part 14 - Body parameters in express HTTP request
+https://www.youtube.com/watch?v=7-zLcsfR1q0
+
+HTTP Explained: The HTTP Request Status Code Guide (Complete)
+https://www.youtube.com/watch?v=VLH3FMQ5BIQ
+
+Simple search form in REACT using hooks
+https://dev.to/asimdahall/simple-search-form-in-react-using-hooks-42pg
+
+form submit for search in react functional component
+https://react-hook-form.com/advanced-usage/
+https://stackoverflow.com/questions/59771401/react-component-with-just-a-form-form-submit-action-differs-depending-on-consu
+
+How to search for text or expression in multiple fields
+https://stackoverflow.com/questions/31859800/how-to-search-for-text-or-expression-in-multiple-fields
+
+Search multiple fields for multiple values in MongoDB
+https://stackoverflow.com/questions/21417711/search-multiple-fields-for-multiple-values-in-mongodb
+
+Install AdminLTE Template in React.js
+https://www.youtube.com/watch?v=mIecTxfqo1M
+
+admin-lte
+https://www.npmjs.com/package/admin-lte
+
+Deploy a MERN App to Heroku
+https://www.youtube.com/watch?v=qXIG8iKO7Fo
+https://github.com/hannahpatellis/reactnotesapp/blob/master/server.js
+
+How to Deploy React Express, Node App to Heroku - 2020
+https://www.youtube.com/watch?v=xgvLP3f2Y7k
+https://github.com/mujibsardar/fcb_react_express_heroku_example
+
+how to set unique indentifier in react
+https://www.google.com/search?q=how+to+set+unique+indentifier+in+react&oq=how+to+set+unique+indentifier+in+react&aqs=chrome..69i57j33i22i29i30l2.12276j0j7&sourceid=chrome&ie=UTF-8
+
+What is URL Encoding? - URL Encode/Decode Explained - Web Development Tutorial
+https://www.youtube.com/watch?v=lkAeX3T6A9I
+
+Validating & Structuring JSON over WebSockets - JavaScript Tutorial
+https://www.youtube.com/watch?v=mmZmtOUIBsg&list=PLVvjrrRCBy2I4V6nsCxwO03Y8GHaT-izr
+
+TODO REST APP in Express ( NodeJS )
+https://www.youtube.com/playlist?list=PLxoOrmZMsAWwTIKAJTOUpS9US5YkRuhrq
+
+AWS Lambda Using NodeJS
+https://www.youtube.com/playlist?list=PLxoOrmZMsAWyBy3qwWdNhtAi-J4yLK1k9
+
+Understanding Express web framework in NodeJS
+https://www.youtube.com/playlist?list=PLxoOrmZMsAWxC3BaEeSvKkqtZmfzUk367
+
+Part 14 - Body parameters in express HTTP request
+https://www.youtube.com/watch?v=7-zLcsfR1q0
+
+HTTP Explained: The HTTP Request Status Code Guide (Complete)
+https://www.youtube.com/watch?v=VLH3FMQ5BIQ
+
+Simple search form in REACT using hooks
+https://dev.to/asimdahall/simple-search-form-in-react-using-hooks-42pg
+
+form submit for search in react functional component
+https://react-hook-form.com/advanced-usage/
+https://stackoverflow.com/questions/59771401/react-component-with-just-a-form-form-submit-action-differs-depending-on-consu
+
+How to search for text or expression in multiple fields
+https://stackoverflow.com/questions/31859800/how-to-search-for-text-or-expression-in-multiple-fields
+
+Search multiple fields for multiple values in MongoDB
+https://stackoverflow.com/questions/21417711/search-multiple-fields-for-multiple-values-in-mongodb
+
+Install AdminLTE Template in React.js
+https://www.youtube.com/watch?v=mIecTxfqo1M
+
+admin-lte
+https://www.npmjs.com/package/admin-lte
+
+Ecommerce with NodeJS
+https://www.youtube.com/watch?v=ri0XSiWCdkY&list=PLcpL2kgfJqjn0zKf-daHwWWWM42bgCMiw
