@@ -746,3 +746,174 @@ module.exports =  catchAsync = fn => {
 7. Import catchAsync into controller.js and use it
 
 
+---------------  
+27/10/2020  
+
+
+Proxying API Requests in Development
+https://create-react-app.dev/docs/proxying-api-requests-in-development/
+
+ReactSecurity - Attach a JSON Web Token in an Axios Request
+https://www.youtube.com/watch?v=-u04JD5Eo-c
+https://stackoverflow.com/questions/57085493/getting-data-from-response-headers-in-axios
+
+ React Security Fundamentals by Ryan Chenkie 
+ https://courses.reactsecurity.io/courses/react-security-fundamentals/302432-handling-auth-state/864657-persist-auth-state-on-page-refresh
+ Advanced React Security Patterns Preview
+ https://www.youtube.com/playlist?list=PLlRapu2ErjJ-qSQT9fhh3wdgLU8nynzeN
+
+differs from this approach " axios.defaults.headers.common['Authorization'] = AUTH_TOKEN;" ? Does this headers also sends with every request?
+---------
+If our API endpoints are secured with JSON Web Tokens, we need to get those JWTs to the endpoints when making requests from our React 
+
+applications. A common way to do this is to send the JWT as an Authorization header.
+
+Let's see how to use Axios HTTP interceptors to send JWTs in our requests for data.
+----------------------
+What's the best way to store the bearer token? Can it be stored in context some how and we use a custom hook to grab the bearer token every 
+
+time? Some places I've read have mentioned that storing the bearer token in local storage or a cookie is a security flaw because then it's 
+
+exposed to other websites you visit.?
+
+ I think the best place to keep it is in your React state somewhere. Local storage and even cookies are indeed susceptible to attacks. 
+
+
+The only downside is that you'll need to get a new token each time the page is refreshed. If you don't have a way of refreshing your tokens 
+
+easily without an additional login, this can lead to a poor user experience. 
+
+--------------
+Is it okay to have token exposed in your code like this? token value in a variable  ?
+ in practice, you'll need a different token for every user and they will expire regularly so you'll need them to get new tokens often. you'll 
+
+need to store them somewhere in your React app. My recommendation for storage is browser memory or an HttpOnly cookie :)
+
+----------
+how can you display any header that's being sent towards ReactJS? For example, in NodeJS you can do something like "req.headers" and this 
+
+would display all the possible headers in a certain request, is there a way to do the same within ReactJS?
+
+Ans :
+ If you're using Axios, you can usually read the response headers. Check out this post for more info: 
+
+https://stackoverflow.com/questions/57085493/getting-data-from-response-headers-in-axios
+----------
+
+I already tried doing a "res.headers", however I don't see the headers that I hope for in this field. 
+
+I go under Network using the Chrome tools and I can see the headers there and on Postman.
+
+This is what I'm doing with ReactJS:
+
+const backendApi = axios.create({
+
+    baseURL: 'http://localhost:3010',
+
+    withCredentials:true,
+})
+
+
+//This is under a class object
+backendApi.post('/users/register', {
+
+            authCode: data.code
+
+        }).then((response) => {
+
+            console.log(response);
+
+        }).catch((error) => {
+
+            console.log(error);
+
+        })
+
+//Backend
+//the backend sends this essentially
+//but I can't see the 'Authorization' header that I expect
+res.setHeader('Content-Type', 'application/json');
+
+res.setHeader('Authorization', "Bearer " + accessToken);
+res.status(200)
+
+res.json({success:true}).end() 
+
+Ans :
+I fixed the issue! The problem was that I wasn't including the 'exposedHeaders' configuration option for cors in the backend. Once I included 
+
+the header with the right name, it worked!
+
+-------------
+ReactJS JWT token | Authentication using web api in Tamil | Cheetah Media
+https://www.youtube.com/watch?v=l5DsNB_0Kw0
+
+Redux | Redux in tamil | Redux for beginners | Cheetah media
+https://www.youtube.com/watch?v=jEs6X_MweBA
+
+What is Redux ? | #11 React JS Tamil Tutorial for Beginners
+https://www.youtube.com/watch?v=yUSLt2f0UXw
+
+React JS Tamil Tutorial for Beginners
+https://www.youtube.com/playlist?list=PLfD4W8QfMd5DbFccLzRFeG0QjWWHGTT3-
+
+How to handle authentication in React using JWT & Cookies | Hooks. Best To Do List App #14.
+https://www.youtube.com/watch?v=B7y7UXA4Wd4
+
+Secure JWT Authentication - Where to store the JWT Token. How to store JWT token in httpOnly cookies
+https://www.youtube.com/watch?v=894seNhONF8
+
+oAuth Step by Step : 
+
+React Login, Logout and Handling JWT Token | React Authentication #2
+https://www.youtube.com/watch?v=XWj18K4Uhg8
+
+React Authentication Full Course | Login, Logout, Forgot and Reset Password
+https://www.youtube.com/watch?v=6sLh_5iFnFc
+
+
+How To Connect React To A Backend (Express.js) - React for beginners #7
+https://www.youtube.com/watch?v=kJA9rDX7azM
+
+Building app with React and Redux
+https://www.youtube.com/playlist?list=PLuNEz8XtB51K-x3bwCC9uNM_cxXaiCcRY
+
+Simple Passport Local Authentication w/ React & Node.js
+https://www.youtube.com/watch?v=IUw_TgRhTBE
+
+Fix CORS Error [SOLVED] | React Tutorial
+https://www.youtube.com/watch?v=hxyp_LkKDdk
+
+React Automatically Refresh Tokens
+https://www.youtube.com/watch?v=3qLJPLN33DE
+
+Authentication With Refresh Tokens Implementation - Ben Awad
+https://www.youtube.com/watch?v=UA0AIkjI85c&t=16s
+
+154 Adding Interceptors to Execute Code Globally
+https://www.youtube.com/watch?v=MKMD9IYGliM
+
+React Hooks | React Hooks in tamil | Cheeta Media
+https://www.youtube.com/watch?v=db0s0SHcoFA
+
+
+An NPM module to reinstall missing dependencies.
+https://www.npmjs.com/package/npm-install-missing
+
+Proxying API Requests in Development
+https://create-react-app.dev/docs/proxying-api-requests-in-development/
+
+ReactSecurity - Attach a JSON Web Token in an Axios Request
+https://www.youtube.com/watch?v=-u04JD5Eo-c
+https://stackoverflow.com/questions/57085493/getting-data-from-response-headers-in-axios
+
+ React Security Fundamentals by Ryan Chenkie 
+ https://courses.reactsecurity.io/courses/react-security-fundamentals/302432-handling-auth-state/864657-persist-auth-state-on-page-refresh
+ Advanced React Security Patterns Preview
+ https://www.youtube.com/playlist?list=PLlRapu2ErjJ-qSQT9fhh3wdgLU8nynzeN
+ 
+ https://www.youtube.com/channel/UCfKDDL3Tck4SZ2jsMTUcEpA/videos
+ 
+ https://www.youtube.com/playlist?list=PLlRapu2ErjJ-qSQT9fhh3wdgLU8nynzeN
+ 
+ https://www.youtube.com/watch?v=-u04JD5Eo-c
