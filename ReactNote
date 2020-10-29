@@ -1,14 +1,14 @@
-## Dfferent way to call a Event : 
+##Dfferent way to call a Event : 
 
 
-Functional : 
+#Functional : 
 
 handleClick = {
 }
 
 onClick = {handleClick}  
 
-## Class  
+##Class  
 
 1.
 constructor(){
