@@ -15,3 +15,52 @@ Learn React Native in tamil | How to Build apps in react native - complete guide
 https://www.youtube.com/watch?v=nj7h-Z0jUKg  
 
 https://android-developers.googleblog.com/2018/07/android-emulator-amd-processor-hyper-v.html
+
+------------
+https://github.com/apollographql/apollo-client/tree/master/packages/apollo-boost
+
+
+Overload 1 of 2, '(props: RouteProps | Readonly<RouteProps>): Route<RouteProps>', gave the following error.
+    Type 'typeof LoginView' is not assignable to type 'ComponentClass<any, any> | FunctionComponent<any> | ComponentClass<RouteComponentProps<any, StaticContext, unknown>, any> | FunctionComponent<...> | undefined'.
+      Type 'typeof LoginView' is not assignable to type 'ComponentClass<any, any>'.
+        Type 'LoginView' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, props, and 2 more.
+  Overload 2 of 2, '(props: RouteProps, context: any): Route<RouteProps>', gave the following error.
+    Type 'typeof LoginView' is not assignable to type 'ComponentClass<any, any> | FunctionComponent<any> | ComponentClass<RouteComponentProps<any, StaticContext, unknown>, any> | FunctionComponent<...> | undefined'.
+      Type 'typeof LoginView' is not assignable to type 'ComponentClass<any, any>'. 
+	  
+	  
+https://github.com/apollographql/apollo-cli
+npm install -g apollo
+
+rm -rf node_modules/apollo/node_modules/graphql
+
+npm install apollo-client apollo-cache-inmemory apollo-link-http react-apollo graphql-tag graphql --save
+
+npm uninstall apollo-cache-inmemory apollo-link-http graphql-tag  --save
+
+npm uninstall graphql-tag  --save
+
+npm install graphql --save
+
+npm uninstall @types/graphql --save
+
+ls node_modules/apollo/node_modules/graphql
+
+https://developer.aliyun.com/mirror/npm/package/apollo
+https://reactnative.dev/docs/_getting-started-windows-android
+
+MongoDB Complex Queries Explained - https://www.youtube.com/watch?v=TvcDcfzNBII
+
+Gradle is a build automation tool for multi-language software development. It controls the development process in the tasks of compilation and packaging to testing, deployment, and publishing.
+
+https://gradle.org/releases/
+https://developer.android.com/studio/archive - Android Studio All Version Download
+https://developer.android.com/studio/releases/gradle-plugin#3-5-0
+https://stackoverflow.com/questions/57606996/could-not-find-com-android-tools-buildgradle5-6
+
+cd \
+dir /S gradlew
+it will display the path to gradlew, you then just need to cd to it, so let's say it is in C:\Program Files\Gradlew\ you just do
+
+cd "C:\Program Files\Gradlew\"
+and run gradlew createDebugCoverageReport from there.
