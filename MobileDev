@@ -64,3 +64,45 @@ it will display the path to gradlew, you then just need to cd to it, so let's sa
 
 cd "C:\Program Files\Gradlew\"
 and run gradlew createDebugCoverageReport from there.
+
+
+BAT File Delete : 
+https://stackoverflow.com/questions/1965787/how-to-delete-files-subfolders-in-a-specific-directory-at-the-command-prompt-in
+https://www.howtogeek.com/363639/how-to-use-the-dir-command-in-windows/
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/del
+
+Readme : https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax
+Visual Studio Code Snippet : https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets
+
+Gradle Tamil : 
+https://www.youtube.com/watch?v=4oLkLP8Fh3s
+
+SOFTWARE SYSTEM DESIGN INTERVIEW QUESTIONS
+https://www.youtube.com/playlist?list=PLHyEAfc_mrxYmPat13jtJt2xPcSpULeYr
+
+Solid Design Principle Tamil : 
+https://www.youtube.com/watch?v=utiA6vxKyHw&list=PLHyEAfc_mrxYxqhf2IjEx5Ie6QlI_PSmj
+
+Microservices Tamil : 
+https://www.youtube.com/watch?v=YqqtmvRV0Zw&list=PLHyEAfc_mrxbNnFI_c8mNDzIGTRhbgEc0
+
+What is Load Balancer  Tamil :
+https://www.youtube.com/watch?v=IdaXuWqJMmk
+
+What is Revers Proxy  :
+https://www.youtube.com/watch?v=nhVRNKi75cE
+
+Android Application Development Tutorial in tamil : 
+https://www.youtube.com/watch?v=Yx6lPlUsMLM&list=PLv--dida40rMeTycc4lXm1d56WckVrGAz
+
+Simple Login App Tutorial Using Android Studio 2.3.3 
+https://www.youtube.com/watch?v=lF5m4o_CuNg
+
+A Gentle Introduction to Gradle
+https://www.youtube.com/watch?v=OFUEb7pLLXw
+
+React Projects  :
+https://www.youtube.com/playlist?list=PLnHJACx3NwAe5XQDk9xLgym7FF8Q4FYW7
+
+What is Gradle ? How Gradle Build Tool Works | How its different from Maven? | DevOps | InterviewDOT
+https://www.youtube.com/watch?v=4oLkLP8Fh3s
