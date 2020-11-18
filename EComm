@@ -17,9 +17,77 @@ https://www.spurtcommerce.com/nodejs-shoppingcart-ecommerce-download
 https://www.spurtcommerce.com/nodejs-shoppingcart-ecommerce-demo
 https://accounts.spurtcommerce.com/#/roadmap
 https://accounts.spurtcommerce.com/#/member-listings
+http://api.spurtcommerce.com/#api-Admin_Delivery_Location-PostApiAdminDeliveryLocationAddDeliveryLocation
 https://www.quora.com/What-is-the-best-multi-vendor-e-commerce-software - Multi Vendor
 https://www.blacktulipflowers.com/
 
 Localization
 https://ionicthemes.com/tutorials/about/internationalize-and-localize-your-ionic2-app-with-ngtranslate
 https://ng.ant.design/docs/i18n/en
+
+
+https://github.com/DrummerHead/react-flow-diagram-example#adding-a-stylesheet
+
+Building a Netflix Clone - React Tutorial - Styled Components - Firebase
+https://www.youtube.com/watch?v=x_EEwGe-a9o
+
+Node with React The Beauty of Create React App's Proxy 
+https://www.youtube.com/watch?v=PsU7JqFX24g
+
+React-Redux best practice - Better architect applications
+https://www.youtube.com/watch?v=w4t527D69vI
+
+1. Register a User  : User email, id , password, and type will be saved in application db
+2. User will be redirected to login screen, and submit login
+3. As he is 'free-trail' type, he will be asked to click Subscripe button through account page
+4. Once he purchased subscription through Card Pay, Stripe will return response including tokenId
+5. From the Stripe subscription's callback function server going to update a user table. It will update "stripeId" with  stripe tokenId and user type will be changed from default ('free-trail') to 'paid'
+6.User will be redirected to Paid-User screen from Account screen
+
+{
+  "id": "tok_1Hol4fDHIfzRDTEXZkHfgon8",
+  "object": "token",
+  "card": {
+    "id": "card_1Hol4fDHIfzRDTEXSkyD12Ef",
+    "object": "card",
+    "address_city": null,
+    "address_country": null,
+    "address_line1": null,
+    "address_line1_check": null,
+    "address_line2": null,
+    "address_state": null,
+    "address_zip": null,
+    "address_zip_check": null,
+    "brand": "American Express",
+    "country": "US",
+    "cvc_check": "unchecked",
+    "dynamic_last4": null,
+    "exp_month": 2,
+    "exp_year": 2023,
+    "funding": "credit",
+    "last4": "0005",
+    "name": "mohan25@gmail.com",
+    "tokenization_method": null
+  },
+  "client_ip": "210.18.179.188",
+  "created": 1605684449,
+  "email": "mohan25@gmail.com",
+  "livemode": false,
+  "type": "card",
+  "used": false
+}
+
+Reference URL  : 
+Stripe Login : https://dashboard.stripe.com/login
+Subscription  : https://stripe.com/docs/billing/subscriptions/overview
+Test Card  : https://stripe.com/docs/testing#cards
+API Docs  : https://stripe.com/docs/api/subscriptions
+
+
+
+git clone --single-branch --branch 5_header https://github.com/benawad/graphql-typescript-stripe-example.git
+
+MYSQL : How to install MySQL on Windows 10 Tutorial - 2020|Easy steps
+https://www.youtube.com/watch?v=2Qi3b_Qu4Xo
+MySQL Database connection from node js application
+https://www.youtube.com/watch?v=eIjbSH3Imb8
