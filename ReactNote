@@ -1,3 +1,4 @@
+
 ##Dfferent way to call a Event : 
 
 
@@ -46,3 +47,70 @@ constructor(){
 }
 
 onClick = { this.handleClick }
+
+
+```
+DIS - Digit Infosoft Solutions
+Innovative Expert For You
+
+www.digitinfosoft.com
+http://www.digiinfotek.com/what-we-do.html
+
+Deploy Node.js App To Digital Ocean Server
+https://www.youtube.com/watch?v=RE2PLyFqCzE
+
+Session Authentication in Express
+https://www.youtube.com/watch?v=OH6Z0dJ_Huk
+
+Deploy NodeJS APP on Amazon EC2 Instance
+https://www.youtube.com/watch?v=tasoWTGM1hA
+
+
+Ep8: Connect Reactjs to Rest Service Backend Api
+https://www.youtube.com/watch?v=7GK4_XaXdfE
+
+
+Two Factor Authentication With TOTP Using Node.js And Speakeasy
+https://www.youtube.com/watch?v=Yv5tZu5wAU0
+
+
+How do you implement video-conferencing solution using Angular 9, NodeJs, Simple Peer ?
+https://www.youtube.com/watch?v=POzZ0-y2ZX8
+https://github.com/aniruddhha/mitron-conference
+
+
+Node.js MessageBird SDK to Send SMS Messages to Authorize Users in Express
+https://www.youtube.com/watch?v=FirHY_k07WQ
+
+Build an IoT application with Node.js and Docker
+https://www.youtube.com/watch?v=mtDJfSHQfAM
+
+MessageBird - SMS API 
+https://www.youtube.com/channel/UCylLiGpkob9VCVlRzIIcFmA/featured
+
+Using Clean Architecture for Microservice APIs in Node.js with MongoDB and Express
+https://www.youtube.com/watch?v=CnailTcJV_U
+
+https://www.sitepoint.com/getting-started-with-react-native/
+
+building-forms-using-react-everything - React Form Controlls
+https://www.codementor.io/@blizzerand/building-forms-using-react-everything-you-need-to-know-iz3eyoq4y
+
+Stateful vs. Stateless Functional Components in React
+https://code.tutsplus.com/tutorials/stateful-vs-stateless-functional-components-in-react--cms-29541
+
+https://www.codementor.io/community/topic/reactjs
+
+How to develop a session-based timeout on react.js
+https://www.codementor.io/@jamesugbanu/how-to-develop-a-session-based-timeout-on-react-js-1b7cyl5z2p
+
+
+Complete Oauth Flow in JavaScript Without Passport
+https://www.codementor.io/@andrewinsoul/complete-oauth-flow-in-javascript-without-passport-1afxhq7mgm
+
+Node.js Module System
+https://www.codementor.io/@oparaprosper79/node-js-module-system-15r2ud9v1c
+
+Authentication and Authorization in Node JS
+https://www.codementor.io/@manashkumarchakrobortty/authentication-and-authorization-in-node-js-19brdvhsyw
+```
