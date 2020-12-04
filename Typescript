@@ -1,0 +1,200 @@
+```
+Setting up Express with ES6 and Babel
+https://codebrains.io/setting-up-express-with-es6-and-babel/
+https://www.geeksforgeeks.org/reactjs-using-babel/?ref=rp
+
+How to add JWT Authentication to an Express API with Passport and ES6
+https://codebrains.io/add-jwt-authentication-to-an-express-api-with-passport-and-es6/
+
+Stateful React Components with Typescript
+https://codebrains.io/stateful-react-components-with-typescript/
+
+React TypeScript: Basics and Best Practices
+https://blog.bitsrc.io/react-typescript-cheetsheet-2b6fa2cecfe2
+
+Protects your state object from mutations
+https://itnext.io/how-to-properly-define-state-in-react-components-47544eb4c15d
+
+TypeScript and React: Setup 
+https://fettblog.eu/typescript-react/getting-started/
+https://fettblog.eu/typescript-react/components/
+https://www.geeksforgeeks.org/reactjs-proptypes/
+
+File uploading in React.js
+https://www.geeksforgeeks.org/file-uploading-in-react-js/?ref=leftbar-rightbar
+
+Controlled Form
+UnControlled Form
+Typescript Form
+Formik Form
+
+Statefull Component 
+Stateless Component
+
+Stateful vs. Stateless Functional Components in React
+
+formdata-in-typescript
+https://dev.to/deciduously/formdata-in-typescript-24cl
+
+React TypeScript Hooks: Form validation with Formik, Yup, and Material-UI
+https://www.heady.io/blog/react-typescript-hooks-form-validation-with-formik-yup-and-material-ui
+
+Creating forms in React in 2020
+https://blog.logrocket.com/forms-in-react-in-2020/
+
+React & Typescript - #4 Forms and Submits
+https://www.youtube.com/watch?v=kg-stzmtflo
+
+Building a React Form Component with TypeScript: Validation
+https://www.carlrippon.com/building-a-react-form-component-with-typescript-validation/?utm_source=dormosheio&utm_campaign=dormosheio
+
+Introducing React Hook Form
+https://wanago.io/2020/10/05/forms-react-hook-form-typescript/
+
+Getting started with React Hook Form with TypeScript
+https://www.carlrippon.com/
+https://www.carlrippon.com/getting-started-with-react-hook-form-with-typeScript/
+https://www.carlrippon.com/building-super-simple-react-form-component-typescript-basics/
+
+React TypeScript onSubmit e.preventDefault() not working
+https://stackoverflow.com/questions/56562153/react-typescript-onsubmit-e-preventdefault-not-working/56562229
+
+
+How to get form data on submit in ReactJS
+https://linguinecode.com/post/how-to-get-form-data-on-submit-in-reactjs
+
+Typescript React.Js File Upload Event Ts2322 Error
+https://stackoverflow.com/questions/50641491/typescript-react-js-file-upload-event-ts2322-error
+
+TypeScript Form preventDefault on Submit
+https://codepen.io/WebReflection/pen/GXOrmY?editors=1010
+
+React Typescript Material UI Form
+https://www.youtube.com/watch?v=6VmVYi9yrAA
+
+Dockerizing a basic Node.js/Nest.js application
+https://medium.com/javascript-in-plain-english/dockerizing-a-nestjs-nodejs-app-d440762d98a4
+
+Building a Survey Forms App with GraphQL
+https://dgraph.io/blog/post/surveyo-into/
+
+Build React forms based on GraphQL APIs.
+https://blog.usejournal.com/build-react-forms-based-on-graphql-apis-7e3acb1f91d7
+
+typescript-react-apollo
+https://hasura.io/learn/graphql/typescript-react-apollo/mutations-variables/4-mapping-types/
+
+Easy and readable React/GraphQL/Node/Formik Stack — Part 4
+https://medium.com/scropt-com/easy-and-readable-react-graphql-node-stack-part-4-57ed758a3ecc
+
+How to use GraphQL in React using hooks
+https://www.nearform.com/blog/how-to-use-graphql-in-react-using-hooks/
+
+howtographql
+https://www.howtographql.com/react-apollo/3-mutations-creating-links/
+
+howtographql / react-apollo  -- Mutation for button click 
+https://github.com/howtographql/react-apollo/blob/master/src/components/CreateLink.js
+https://github.com/howtographql/react-apollo
+
+Tutorial: GraphQL Mutations with React - Add item List 
+https://www.apollographql.com/blog/react-graphql-tutorial-mutations-764d7ec23c15/
+Mutations: Creating Links
+https://www.howtographql.com/react-apollo/3-mutations-creating-links/
+
+gist.github
+https://gist.github.com/paulkoerbitz/8f98a27d5b66d518964a
+
+Properly typing Apollo Mutation render prop for onClick handler
+https://stackoverflow.com/questions/53702877/properly-typing-apollo-mutation-render-prop-for-onclick-handler
+
+Build React forms based on GraphQL APIs.
+https://blog.usejournal.com/build-react-forms-based-on-graphql-apis-7e3acb1f91d7
+
+Migrating to Typescript; Stateless and Stateful Components
+https://medium.com/@tom_parsons/migrating-to-typescript-stateless-and-stateful-components-b19aaae8cfdc
+
+Typescript input onchange event.target.value
+https://stackoverflow.com/questions/40676343/typescript-input-onchange-event-target-value
+
+Getting Started with React + TypeScript
+https://medium.com/javascript-in-plain-english/react-typescript-813b02ff3672
+https://medium.com/@bretcameron/a-quick-guide-to-react-with-typescript-313fccd9ad89
+
+react-typescript-cheatsheet
+https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/class_components/
+
+typescriptlang
+https://www.typescriptlang.org/docs/handbook/babel-with-typescript.html
+
+-----
+React.lazy - Code Splitting Your React App
+https://www.youtube.com/watch?v=Uj8vTPUxXHI
+
+Walkthrough: Preventing SQL Injections in MySQL and NodeJS
+https://www.youtube.com/watch?v=-jHxXRJ073k
+
+
+Typescript & Stripe & Mail: 
+https://www.youtube.com/c/Covalence-io/videos
+
+
+https://www.youtube.com/watch?v=cSUbdR8p3hU
+https://www.youtube.com/watch?v=3pS-oRn9LTk
+https://www.youtube.com/watch?v=2TGvdAVE43o
+https://www.youtube.com/watch?v=dsjYeQ_JxlY
+https://www.youtube.com/watch?v=Qqjm_9yUlLE
+
+Walkthrough: Taking Payments with Stripe (Express Backend)
+https://www.youtube.com/watch?v=rFmZtobVB1k
+
+Walkthrough: Taking Payments with Stripe (React Frontend)
+https://www.youtube.com/watch?v=dEahSdI7p7M
+
+
+React Stripe Elements Package (NEW 2020) + Charging Stripe in Node Full stack tutorial
+https://www.youtube.com/watch?v=WTUYem2IxLA
+
+Stripe Payment Gateway - Easy 2 Excel 
+https://www.youtube.com/playlist?list=PL0CyZKPJn9TNNdh2L04zNBAj8_gXJ82pn
+
+
+Create a Customer
+Create Payment
+Make Payment
+Save a Card
+How to get Saved Card
+Delete a Card
+Make Payment Using Existing Card
+Payment Request Integration
+
+Displaying Lists in React and JSX
+https://scotch.io/starters/react/handling-lists-in-react-jsx
+
+The First Signs of Alcoholic Liver Damage Are Not in the Liver
+https://elemental.medium.com/the-first-signs-of-alcoholic-liver-cirrhosis-are-not-in-the-liver-2634b3968f00
+https://medium.com/
+
+Typescript React 
+
+https://www.youtube.com/results?search_query=react+typescript+ben+awad
+
+React Typescript Tutorial
+https://www.youtube.com/watch?v=Z5iWr6Srsj8
+https://github.com/benawad/typescript-generic-example
+
+Typescript Generics Tutorial
+https://www.youtube.com/watch?v=nViEqpgwxHE
+
+
+
+
+React Forms - DOM api : 
+https://medium.com/@everdimension/how-to-handle-forms-with-just-react-ac066c48bd4f
+
+Controlled Forms in React
+https://medium.com/byte-sized-react/controlled-forms-in-react-68e59362a119
+
+Building a React Form Component with TypeScript: The Basics
+https://www.carlrippon.com/building-super-simple-react-form-component-typescript-basics/
+```
