@@ -197,4 +197,39 @@ https://medium.com/byte-sized-react/controlled-forms-in-react-68e59362a119
 
 Building a React Form Component with TypeScript: The Basics
 https://www.carlrippon.com/building-super-simple-react-form-component-typescript-basics/
+
+Node.js & Stripe API - Ebook Sales App & Heroku Deploy          
+https://www.youtube.com/watch?v=QT3_zT97_1g
+
+The Complete Guide to Forms in React : 
+https://medium.com/better-programming/the-complete-guide-to-forms-in-react-d2ba93f32825
+
+How to update nested state properties in React
+https://stackoverflow.com/questions/43040721/how-to-update-nested-state-properties-in-react#:~:text=In%20order%20to%20set%20the,state.
+
+Updating react nested state properties
+https://dev.to/walecloud/updating-react-nested-state-properties-ga6
+
+Define an empty object type in TypeScript
+https://stackoverflow.com/questions/60111963/define-an-empty-object-type-in-typescript
+
+type User = {
+    Username: string;
+    Email: string;
+}
+
+const user01 = {} as User;
+const user02 = <User>{};
+
+user01.Email = "foo@bar.com";
+---------
+Typescript: How do I define interfaces for nested objects?
+
+https://stackoverflow.com/questions/42216053/typescript-how-do-i-define-interfaces-for-nested-objects
+
+https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgJKQLbIN4FgBQyRywAJgFzIgCuGARtANwHHIDOwAXhJTfUwQC+BUJFiIUAUQAecDAAcANijyFiIOT3ZgooAObM1RYJjaVVrVgG0A1hACelNjv0BdSuggYWxQYeH4BABucFDIAPZ0AFaUMnJKKAC8OD5EGhhaAESQzpkANKkkpuaFrJlwmSVGlqxklACMBdU1RBzcDQAMpb5NLciZdJUpzS11yABMvX3EbVoAzAAs3UQBrAGCQA
+
+[@types/react] cannot setState with dynamic key name type-safe
+https://www.gitmemory.com/issue/DefinitelyTyped/DefinitelyTyped/26635/646322548
+
 ```
